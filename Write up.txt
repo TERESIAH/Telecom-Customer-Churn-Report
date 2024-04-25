@@ -1,0 +1,50 @@
+Project : Telecom Customer Churn
+
+About the Data : Churn data for a fictional Telecommunications company that provides phone and internet services to 7,043 customers in California, and includes details about customer demographics, location, 
+services, and current status.
+
+Data Source : @Maven Analytics https://mavenanalytics.io/data-playground?page=2
+Visualization Tool : Ms Power BI
+Data Cleaning : R (Libraries; tidyverse, dplyr)
+
+Skills Learnt:  R, Power Query, Ms Power BI, DAX
+
+
+Recommended Analysis
+1. How many customers joined the company during the last quarter? How many customers joined? During the last quarter 454 customers joined the company. 
+2. What is the customer profile for a customer that churned, joined, and stayed? Are they different?
+
+Churned Customers - A greater percentage of the churned customers Female(50.24%)
+                  - Most of them were above the age of 60.
+				  - They were mostly internet users with Fibre optic(70.39%) being preferred by many.
+				  - Most of them did not have any offer(56.23%) and had month to month contracts(88.55%). 
+				  - Majority of them were from San Diego(49.33%).
+				  
+Joining Customers - A greater percentage of the joining customers were Male(53.52%)
+                  - Most of them were of the age between 30-45.
+				  - They were mostly phone users than internet users with majority of them having only one line(89.18%).
+				  - Most of them did not have any offer(61.45%) and had month to month contracts(89.87%).
+				  - Majority of them were from Los Angeles(40.91%).
+
+Active Customers  - A greater percentage of the joining customers were Male(50.47%)
+                  - Most of them were of the age between 30-45 and 45-60.
+				  - They were more of phone users (with majority of them having only one line(89.18%))than internet users (mostly using Fiber Optic).
+				  - Most of them had an offer of two year contract(38.41%) .
+				  - Majority of them were from Los Angeles(38.40%).
+				  
+The three customer profiles are slightly different.
+
+3. What seem to be the key drivers of customer churn? - The top five drivers of customer churn are;
+                                                      - Competitior having better devices.
+													  - Competitior made better offers.
+													  - Attitude of support person.
+													  - Competitior offered more data.
+													  - Competitior offered higher download speeds.
+													  
+4.Is the company losing high value customers? If so, how can they retain them?
+- Yes the company is loosing high value customers.
+Recommendations
+- Infrastructure development - Ensure the internet is better with high speed, make the fibre optic internet more efficient and invest on improved devices. Finally focus an excellent service delivery
+- Hire Professional Personnel and provide capacity building in customer services for them to better serve the clients to their satisfation.
+- Have more vibrant marketing strategies in San Diego to attract clientele to the company.
+- Probably have more longer contracts for the clients for more retention.
